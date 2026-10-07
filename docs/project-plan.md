@@ -20,7 +20,7 @@ The project runs in seven stages. Work on one stage at a time, in order. Each st
 
 | Stage | Name | Goal | Week | Status |
 |---|---|---|---|---|
-| 0 | Foundation | Plan, spec, and working agreements in place | Done | Complete once this plan is on `main` |
+| 0 | Foundation | Plan, spec, and working agreements in place | Done | Done |
 | 1 | Setup | Repository scaffold and CI running | 1 | Not started |
 | 2 | Event research | A cited event timeline and a validated control app | 1 | Not started |
 | 3 | Data collection and cleaning | A clean, anonymized review dataset | 2 | Not started |
@@ -28,7 +28,7 @@ The project runs in seven stages. Work on one stage at a time, in order. Each st
 | 5 | Synthesis | Recommendations (RQ4), README, final report | 5 | Not started |
 | 6 | Buffer and release | Catch-up, final checks, optional automation | 6 | Not started |
 
-Update the Status column when a stage's exit condition is met.
+Status values are `Not started`, `In progress`, and `Done`. A stage moves to `In progress` when its first issue is opened and to `Done` when its exit condition is met. Claude updates this table at the start and end of each stage; the log below records each change.
 
 ### Stage 1 — Setup
 
@@ -71,6 +71,12 @@ Update the Status column when a stage's exit condition is met.
 - **Goal:** finish cleanly.
 - **Do:** close slipped issues, re-run the full pipeline from a clean clone, and tag a release. Add the monthly GitHub Action only if time remains.
 - **Done when:** the repository reproduces from a fresh clone and `main` is green.
+
+### Status log
+
+| Date | Stage | Change |
+|---|---|---|
+| 2026-10-07 | 0 | Done — design spec, project plan, and working agreements on `main`; `develop` branch created |
 
 ## 3. Critical path
 
