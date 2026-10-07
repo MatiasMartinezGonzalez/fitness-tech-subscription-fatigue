@@ -10,7 +10,9 @@ The full design lives in [docs/design/2026-10-07-paywall-backlash-design.md](doc
 
 ## Working agreements
 
-- **Build in public:** small, frequent, descriptive commits; one feature branch + PR per GitHub Issue; one Milestone per week. Never commit directly to `main` once the repo is published.
+- **Build in public:** small, frequent, descriptive commits; one GitHub Issue per task; one Milestone per week.
+- **Branching:** `main` is stable; `develop` is the integration branch for code. Code work uses a feature branch off `develop` and a PR back into `develop`; `develop` merges into `main` at the end of each milestone. Documentation-only changes may be committed directly to `main`.
+- **Planning:** the execution plan (stages, issues, risks) is [docs/project-plan.md](docs/project-plan.md). Check it to see the current stage and what comes next.
 - **Writing voice:** README, design docs, methodology, and reports read as professional research written by the author — no conversational asides addressed to the reader.
 - **Data:**
   - Raw scraped data goes in `data/raw/` and is never committed; processed aggregates and `data/events.csv` are.
