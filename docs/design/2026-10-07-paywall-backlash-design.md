@@ -6,13 +6,12 @@
 
 ## 1. Purpose & audience
 
-A portfolio-grade, reproducible analysis of whether fitness/outdoor apps that moved features behind paywalls (or raised prices) experienced measurable user backlash, what users complained about, and what product teams can learn from it.
+A reproducible analysis of whether fitness/outdoor apps that moved features behind paywalls (or raised prices) experienced measurable user backlash, what users complained about, and what product teams can learn from it.
 
-- **Primary audience:** recruiters and hiring managers for **data analyst** roles.
-- **Secondary audience:** **product / growth analytics** roles.
-- **Personal goals:** build real GitHub activity (issues, PRs, CI), practice Claude Code + Git workflows, and produce research with genuine insight.
+- **Primary audience:** data analysts interested in measuring user response to pricing changes.
+- **Secondary audience:** product and growth teams designing subscription and paywall strategy.
 
-**Constraints:** free data and tools only; ~5–8 hrs/week for 4–6 weeks; author is comfortable with Python, notebooks, branches and PRs.
+**Constraints:** free data and open-source tools only; ~5–8 hrs/week over 4–6 weeks.
 
 ## 2. Scope
 
@@ -103,7 +102,7 @@ tests/               unit tests for cleaning, keyword tagger, window logic
 .github/workflows/   CI: lint (ruff) + pytest on every PR
 ```
 
-**Workflow:** GitHub Issues per task, one Milestone per week, feature branch + PR per issue, review with `/code-review` before merge, small descriptive commits.
+**Workflow:** GitHub Issues per task, one Milestone per week, feature branch + PR per issue, code review before merge, small descriptive commits.
 
 ## 8. Timeline
 
