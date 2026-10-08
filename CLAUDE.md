@@ -23,7 +23,14 @@ The full design lives in [docs/design/2026-10-07-paywall-backlash-design.md](doc
 
 ## Commands
 
-_To be filled in as the pipeline is built (environment setup, `make data`, tests, lint)._
+```
+python -m venv .venv && .venv/Scripts/activate   # Windows; use .venv/bin/activate elsewhere
+pip install -r requirements.txt                  # full stack; CI installs requirements-dev.txt only
+ruff check . && ruff format --check .            # lint and format check
+pytest                                           # unit tests
+```
+
+`make data` will be added in Stage 3.
 
 ## Layout
 

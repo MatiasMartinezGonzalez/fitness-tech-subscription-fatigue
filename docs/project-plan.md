@@ -21,7 +21,7 @@ The project runs in seven stages. Work on one stage at a time, in order. Each st
 | Stage | Name | Goal | Week | Status |
 |---|---|---|---|---|
 | 0 | Foundation | Plan, spec, and working agreements in place | Done | Done |
-| 1 | Setup | Repository scaffold and CI running | 1 | Not started |
+| 1 | Setup | Repository scaffold and CI running | 1 | In progress |
 | 2 | Event research | A cited event timeline and a validated control app | 1 | Not started |
 | 3 | Data collection and cleaning | A clean, anonymized review dataset | 2 | Not started |
 | 4 | Analysis | Answers to RQ1, RQ2, and RQ3 | 3–4 | Not started |
@@ -77,6 +77,7 @@ Status values are `Not started`, `In progress`, and `Done`. A stage moves to `In
 | Date | Stage | Change |
 |---|---|---|
 | 2026-10-07 | 0 | Done — design spec, project plan, and working agreements on `main`; `develop` branch created |
+| 2026-10-07 | 1 | In progress — scaffold and CI on `feature/1-repo-scaffold-ci`; PR into `develop` pending |
 
 ## 3. Critical path
 
