@@ -1,0 +1,11 @@
+app,event_date,event_type,reviews_pre_8w,reviews_post_8w,history_reaches_window,decision
+AllTrails,2022-08-26,price_increase,1142,802,True,keep
+AllTrails,2025-05-12,tier_launch,839,816,True,keep
+Garmin Connect,2025-03-27,subscription_launch,851,1513,True,keep
+Strava,2020-03-12,tier_consolidation,1588,2022,True,keep
+Strava,2020-05-18,feature_gating,2070,2848,True,keep
+Strava,2023-01-13,price_increase,533,651,True,keep
+Strava,2024-10-03,subscriber_feature_launch,1035,1016,True,keep
+Strava,2024-11-11,api_restriction,1016,1096,True,keep
+Surfline,2024-07-11,tier_launch,44,46,True,downgrade
+Surfline,2025-04-08,price_increase,20,22,True,drop
