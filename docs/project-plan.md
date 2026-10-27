@@ -80,6 +80,7 @@ Status values are `Not started`, `In progress`, and `Done`. A stage moves to `In
 | 2026-10-07 | 1 | In progress — scaffold and CI on a feature branch; PR #1 opened |
 | 2026-10-08 | 1 | Done — PR #1 merged into `develop` with a passing CI check |
 | 2026-10-22 | 2 | In progress — issue 3 started; first cited draft of `data/events.csv` (five events) on a feature branch |
+| 2026-10-26 | 2 | In progress — issue 4 control validated provisionally; issue 5 feasibility check run and a `decision` column added to `data/events.csv`; issue 6 (data dictionary) remains |
 
 ## 3. Critical path
 

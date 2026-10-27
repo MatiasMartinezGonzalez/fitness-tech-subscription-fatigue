@@ -25,6 +25,10 @@ A web search for NRC paywall, subscription, or pricing changes returned no repor
 - The 2021 snapshot of the NZ page lacks the FAQ, and the US page snapshots do not carry the cost statement. Coverage of 2020–2021 is therefore weaker than 2022–2026.
 - An absence of news coverage is not proof of no change.
 
+## Review-history coverage (issue 5)
+
+The Google Play history reachable for Nike Run Club starts on 2020-04-12. Its 8-week pre-window for the Strava event on 2020-03-12 therefore has no reviews, so that event cannot be used in the difference-in-differences. For every other event the control has 333 to 3,020 reviews in each ±8-week window.
+
 ## Remaining checks
 
 1. Read the NRC App Store and Google Play listings for in-app purchases and release notes across the study window (the store changelogs are the closest thing to a continuous record).
